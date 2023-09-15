@@ -1,0 +1,37 @@
+/*Styles for spoken text */
+.speech{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    color: black;
+}
+
+.direction{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    color: black;
+    background-color: lightgoldenrodyellow;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.direction:hover{
+    background-color: darkgoldenrod;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.name {
+    font-weight: bold;
+    font-size: small;
+}
+
+.dr-Stockmann{
+    color: darkorchid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mrs-Stockmann{
+    color: brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
