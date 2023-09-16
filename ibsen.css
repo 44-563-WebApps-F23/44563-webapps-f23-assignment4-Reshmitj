@@ -22,17 +22,25 @@
 .name {
     font-weight: bold;
     font-size: small;
+    transition: all 0.3s ease;
+}
+
+.name:hover{
+    border: 1px solid;
+    padding: 3px;
+    box-shadow: 3px 5px;
+    text-shadow: 2px 3px 5px deepskyblue;
+    border: 2px dotted darkslateblue;
+    color: deepskyblue;
 }
 
 .dr-Stockmann {
     color: darkorchid;
-    text-shadow: 2px 2px 5px darkorchid;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .mrs-Stockmann {
     color: brown;
-    text-shadow:2px 2px 5px brown;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
